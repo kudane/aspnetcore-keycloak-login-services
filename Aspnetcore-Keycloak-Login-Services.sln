@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspnetcoreKeycloakLoginServices", "src\AspnetcoreKeycloakLoginServices.csproj", "{7DA3FDEC-85A8-4AAF-92AC-6C2E2EE6A9B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1AF9EF35-43B6-43FD-A196-F8022864F830}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{AF625AFE-E2CA-4989-AA03-D2D3EFA56D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDemo", "samples\WebApiDemo\WebApiDemo.csproj", "{EB10282D-CD0A-4A66-87FF-8EFCFD78E497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DA3FDEC-85A8-4AAF-92AC-6C2E2EE6A9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA3FDEC-85A8-4AAF-92AC-6C2E2EE6A9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA3FDEC-85A8-4AAF-92AC-6C2E2EE6A9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA3FDEC-85A8-4AAF-92AC-6C2E2EE6A9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB10282D-CD0A-4A66-87FF-8EFCFD78E497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB10282D-CD0A-4A66-87FF-8EFCFD78E497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB10282D-CD0A-4A66-87FF-8EFCFD78E497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB10282D-CD0A-4A66-87FF-8EFCFD78E497}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DA3FDEC-85A8-4AAF-92AC-6C2E2EE6A9B8} = {1AF9EF35-43B6-43FD-A196-F8022864F830}
+		{EB10282D-CD0A-4A66-87FF-8EFCFD78E497} = {AF625AFE-E2CA-4989-AA03-D2D3EFA56D61}
+	EndGlobalSection
+EndGlobal
